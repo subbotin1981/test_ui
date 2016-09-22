@@ -1,0 +1,150 @@
+body{
+	
+	background: #3b3b3b;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	font-weight: lighter;
+}
+p{
+	font-size: 13px;
+	font-weight: 400;
+}
+h1{
+	font-weight: 400;
+}
+#sidebar{
+	background: #143c88;
+	color: #4c5a6d;
+	height: 100vh;
+	width: 20%;
+	float: left;
+}
+#sidebar h1{
+	padding: 0 15px 55px 25px;
+}
+#sidebar h3{
+	color: #fff;
+	height: 25px;
+	background-image: linear-gradient(#f78c6e, #f64124);
+	padding: 20px;
+}
+
+/*------------------------------------------------------------------------------------*/
+#items{
+	padding: 10px;
+	background: #fff;
+	width: 35%;
+	color: #515158;
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	width: 500px;
+
+}
+.item_active{
+	border-left: 5px solid #f64124;
+	border-spacing: 0 0 0 15px;
+}
+#items li{
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #000;
+	display: block;
+	clear: both;
+	text-align: justify;
+}
+#items > li > p{
+	text-align: justify;
+}
+
+
+.input-form{
+	width: auto;
+	height: 50px;
+	border-radius: 5px;
+}
+.add_new{
+	background: #E8CC9D;
+	margin-right: 5px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	padding: 10px 25px;
+	border: none;
+	border-radius: 3px;
+}
+.counter{
+	background: #edcca1;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 5px 15px;
+	border: none;
+
+	border-radius: 25px 15px 15px 25px;
+}
+.delete{
+	background: #E81216;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	padding: 10px 25px;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------*/
+#comments{
+	background: #fff;
+	width: 35%;
+	margin: 10px 10px 0 20px;
+	color: #515158;
+	float: left;
+}
+#comments h1{
+	margin-left: 10px;
+	margin-bottom: 45px;
+}
+#comments div{
+	margin-left: -25px;
+}
+#comments li{
+	list-style: none;
+	margin-top: 10px;
+	/*border-bottom: 1px solid #000;*/
+}
+#comments img{
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+	display: block;
+}
+#img_1{
+	background-color: #f7b407;
+}
+#img_2{
+	background-color: #df4220;
+}
+#img_3{
+	background-color: #f7b407;
+}
+#img_4{
+	background-color: #3b3b3b;
+}
+
+#comments p{
+	line-height: 26px;
+	position: relative;
+	display: table;
+	text-align: justify;
+	margin-right: 10px;
+}
+#comments input{
+	width: 380px;
+	height: 65px;
+	margin-top: 5px;
+	/*border: 1px solid #3b3b3b;*/
+}
+	
